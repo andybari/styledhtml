@@ -1,0 +1,37 @@
+/* styles.css */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.heading {
+  background-color: #f48484;
+}
+
+.main {
+  background-color: #ffe0e0;
+}
+
+.dessert {
+  background-color: #ffeaea;
+}
+
+.price {
+  text-align: right;
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+}
